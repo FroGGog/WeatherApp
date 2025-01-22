@@ -136,7 +136,7 @@ void DataGetter::requestInfo(QString location)
     }
 
     currentLocation = location;
-    QString sUrl = "YOURAPIKEYHERE&query=" + location;
+    QString sUrl = "INPUTYOURAPIKEYHERE&query=" + location;
     QUrl url(sUrl);
 
     QNetworkRequest request(url);
